@@ -63,6 +63,7 @@ img {
 
 .one, .oneHidden:Hover {
     color:rgba(0,0,255,1);
+    transition:border 0.8s, color 0.8s;
 }
 
 .twoHidden {
@@ -71,6 +72,7 @@ img {
 
 .two, .twoHidden:hover {
     color:rgba(0,128,0,1);
+    transition:border 0.8s, color 0.8s;
 }
 
 .threeHidden {
@@ -79,4 +81,5 @@ img {
 
 .three, .threeHidden:hover {
     color:rgba(255,0,0,1);
+    transition:border 0.8s, color 0.8s;
 }
