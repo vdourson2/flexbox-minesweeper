@@ -35,23 +35,6 @@ img {
   font-family: 'VT323', monospace;
 }
 
-.one{
-    color:blue;
-}
-
-.two {
-    color:green;
-}
-
-.three {
-    color:red;
-}
-
-.hidden{
-    height:100px;
-    width:100px;
-}
-
 .hidden{
     border-top:solid 6px rgba(255,255,255,1);
     border-left:solid 6px rgba(255,255,255,1);
@@ -78,7 +61,7 @@ img {
     color:rgba(0,0,255,0);
 } 
 
-.oneHidden:Hover{
+.one, .oneHidden:Hover {
     color:rgba(0,0,255,1);
 }
 
@@ -86,7 +69,7 @@ img {
     color:rgba(0,128,0,0);
 }
 
-.twoHidden:hover {
+.two, .twoHidden:hover {
     color:rgba(0,128,0,1);
 }
 
@@ -94,6 +77,6 @@ img {
     color:rgba(255,0,0,0);
 }
 
-.threeHidden:hover {
+.three, .threeHidden:hover {
     color:rgba(255,0,0,1);
 }
