@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+.wrapper{
+    width:900px;
+    margin:auto;
+    background-color: lightgrey;
+    border:black 1px solid;
+    padding: 26px 0;
+}
+
+.grid {
+    display:flex;
+    flex-wrap:wrap;
+    border:solid 10px rgb(151, 148, 148);
+    width:848px;
+    margin:auto;
+}
+
+.cell {
+    flex-basis:100px;
+    border-right:dotted 6px black;
+    border-bottom:dotted 6px black;
+    text-align:center;
+}
+
+img {
+    display:block;
+    width:98px;
+    height:98px;
+}
+
+.number{
+  line-height: 100px;
+  font-size: 90px;
+  font-family: 'VT323', monospace;
+}
+
+.one{
+    color:blue;
+}
+
+.two {
+    color:green;
+}
+
+.three {
+    color:red;
+}
+
+.wrapHidden {
+    border-right:solid 6px black;
+    border-bottom:solid 6px black;
+}
+
+.hidden{
+    height:100px;
+    width:100px;
+}
+
+.hidden{
+    border-top:solid 6px rgba(255,255,255,1);
+    border-left:solid 6px rgba(255,255,255,1);
+    border-right:solid 6px rgba(151, 148, 148,1);
+    border-bottom:solid 6px rgb(151, 148, 148,1);
+    width:88px;
+    height:88px;
+    line-height: 88px;
+    font-size: 90px;
+    font-family: 'VT323', monospace;
+    color:rgba(0,0,255,0);
+}
+
+.hidden:hover {
+    border-top:solid 6px rgba(255,255,255,0);
+    border-left:solid 6px rgba(255,255,255,0);
+    border-right:solid 6px rgba(151, 148, 148,0);
+    border-bottom:solid 6px rgb(151, 148, 148,0);
+}
+
+.oneHidden {
+    color:rgba(0,0,255,0);
+} 
+
+.oneHidden:Hover{
+    color:rgba(0,0,255,1);
+}
+
+.twoHidden {
+    color:rgba(0,128,0,0);
+}
+
+.twoHidden:hover {
+    color:rgba(0,128,0,1);
+}
+
+.threeHidden {
+    color:rgba(255,0,0,0);
+}
+
+.threeHidden:hover {
+    color:rgba(255,0,0,1);
+}
